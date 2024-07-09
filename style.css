@@ -1,0 +1,51 @@
+body{
+    width: 0;
+    padding: 0;
+}
+.calculator {
+    position: absolute;
+    top: 7rem;
+    left: 32rem;
+}
+table{
+    border-collapse: collapse;
+}
+.calculator table{
+    border: 1px solid plum;
+    background-color: plum;
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    border: none;
+    box-shadow: 2px 2px 4px 4px plum;
+}
+.calculator table td{
+    padding: 8px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    border: none;
+}
+button:hover{
+    background-color:rgb(247, 29, 199);
+    color: rgb(255, 255, 255);
+}
+input{
+    width: 12rem;
+    height: 44px;
+}
+.red td button{
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+.head td{
+    text-align: center;
+    font-size: 34px;
+    color: white;
+}
+
